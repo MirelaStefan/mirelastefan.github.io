@@ -9,6 +9,7 @@
 
 body {
 	background-color: black;
+	margin-top: 20px;
 }
 
 h1 {
@@ -29,7 +30,7 @@ img:hover {
 }
 .boxmodel {
 	/*border:5px solid red;*/
-	display: inline-table;
+	display: inline;
 	padding: 10px;
 	margin: 10px;
 }
@@ -57,7 +58,7 @@ ol {
 }
 footer {
 	color: red;
-	text-align: left;
+	text-align: right;
 }
 
 /*ul {
