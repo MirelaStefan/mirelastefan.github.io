@@ -1,0 +1,76 @@
+/*Selector {
+	Property: value;
+}*/
+
+* {
+	text-align: center;
+	font-family: Georgia;
+}
+
+body {
+	background-color: black;
+}
+
+h1 {
+	color: blanchedalmond;
+}
+h1:hover {
+	color: yellow;
+	background-color: black;
+	border: 3px solid yellow;
+}
+img {
+	transition: all 1s;
+	margin: 10px;
+	border: 3px solid yellow;
+}
+img:hover {
+	transform: scale(1.5,1.5);
+}
+.boxmodel {
+	border:5px solid red;
+	display: inline-table;
+	padding: 10px;
+	margin: 10px;
+}
+#div1 {
+	color: pink;
+	font-size: 100%;
+}
+#div2 {
+	color: violet;
+	font-size: 100%;
+}
+ul {
+	list-style: inside;
+}
+#div3 {
+	color: lightcyan;
+	font-size: 100%;
+}
+ol {
+	list-style-position: inside;
+}
+#div4 {
+	color: white;
+	font-size: 150%;
+}
+footer {
+	color: red;
+	text-align: left;
+}
+
+/*ul {
+	color: white;
+}*/
+
+
+/*p {
+	color: white;
+}*/
+
+
+
+/*ol {
+	color:aquamarine;
+}?

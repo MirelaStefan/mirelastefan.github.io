@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html
+<head>
+	<title>Register</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+</head>
+<body>
+	<h3>Who are you?</h3>
+	<!--Use POST so the details (the password) won't appear in the URL-->
+	<form method="POST">
+		First Name: <input type="text" name="firstname" style="background-color: yellow"><br>
+		Last Name: <input type="text" name="lastname"><br>
+		Email: <input type="email" name="email"><br>
+		Username: <input type="text" id="username" required name="username"><br>
+		Password: <input type="password" required name="password" min="5"><br>
+		Did you ever have your name misspelled? <br>
+		<input type="radio" name="question1" value="Yes">Yes<br>
+		<input type="radio" name="question1" value="No">No<br>
+		Tell me something funny about you:<br>
+		<textarea name="somthingfunny" rows="10" cols="30"></textarea><br>
+		<input type="submit" value="Register">
+		<input type="reset" name="Reset">
+	</form>
+	<a href="index.html">I want back, I don't want you to know me</a>
+</body>
+</html>
