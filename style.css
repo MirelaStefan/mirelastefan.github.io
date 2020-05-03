@@ -28,7 +28,7 @@ img:hover {
 	transform: scale(1.5,1.5);
 }
 .boxmodel {
-	border:5px solid red;
+	/*border:5px solid red;*/
 	display: inline-table;
 	padding: 10px;
 	margin: 10px;
