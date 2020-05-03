@@ -30,7 +30,7 @@ img:hover {
 }
 .boxmodel {
 	/*border:5px solid red;*/
-	display: inline;
+	display: box;
 	padding: 10px;
 	margin: 10px;
 }
